@@ -67,7 +67,7 @@
 }
 .graph {
   background-color: #D9D9D9;
-  height: 15rem;
+  height: 12rem;
   text-align: center;
 }
 .views {
@@ -83,4 +83,110 @@
   justify-content: space-between;
   border: 0.2rem solid #D9D9D9;
   padding: 0.1rem 2rem 0.1rem 2rem;
+}
+.navBar {
+  /* border: 1px solid red; */
+  display: flex;
+  list-style: none;
+  padding: 2rem 1rem 2rem 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  border-top: 0.2rem solid #D9D9D9;
+}
+.navBar li {
+  margin: 0.2rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+}
+#active {
+ color: #3F2B96; 
+}
+
+/* Order Route */
+.top_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 2rem 0.5rem 2rem 0.5rem; 
+  font-size: 0.8rem;
+  background-color: #3F2B96;
+  color: white;
+  font-weight: 600;
+}
+.top_nav li {
+  margin: 0.2rem;
+}
+#active-nav {
+  border-bottom: 2px solid white;
+}
+.select {
+  border-bottom: 0.2rem solid #D9D9D9;
+  padding: 1rem;
+}
+.select label {
+  margin-left: 0.5rem;
+}
+.no_border {
+  border: none;
+}
+.pro_area {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.proInfo p {
+  font-size: 0.8rem;
+}
+#partition {
+  border-bottom: 0.2rem solid #D9D9D9;
+}
+.search_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.4rem;
+}
+.search_bar input {
+  width: 18rem;
+  height: 2rem;
+}
+.listPro {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0.2rem;
+}
+.pro_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.listProImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listProDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listProInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.listBtn {
+  border: 1px solid #7465B6;
+  text-align: center;
+  padding: 0.4rem;
+  margin: 0.5rem;
+}
+#stock {
+  color: #2FB84D;
+}
+#price-list {
+  color: #3F2B96;
 }
